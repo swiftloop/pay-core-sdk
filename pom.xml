@@ -5,11 +5,12 @@
 
     <groupId>win.oscene</groupId>
     <artifactId>pay-core-sdk</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>pay-core</name>
-    <description>Demo project for Spring Boot</description>
+    <description>pay-sdk</description>
+    <url>https://github.com/swiftloop/pay-core-sdk</url>
 
         <dependencies>
             <dependency>
@@ -24,6 +25,12 @@
                 <artifactId>fastjson</artifactId>
                 <version>1.2.47</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>win.oscene</groupId>
+                <artifactId>common-utils</artifactId>
+                <version>1.2</version>
             </dependency>
         </dependencies>
 
@@ -41,6 +48,11 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <scm>
+        <url>https://github.com/swiftloop/pay-core-sdk.git</url>
+        <connection>scm:git:https://github.com/swiftloop/pay-core-sdk.git</connection>
+    </scm>
 
     <build>
         <plugins>
@@ -127,7 +139,7 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
-    
+
 
 
 </project>
